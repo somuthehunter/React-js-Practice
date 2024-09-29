@@ -1,0 +1,14 @@
+.button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    width: 50%;  /* Decreased the button width */
+    padding-bottom: 40%;  /* Decreased the height to match the new width */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding and border are included in size */
+    
+    /* Flexbox for centering text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
